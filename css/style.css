@@ -181,30 +181,3 @@
     width: 60%;
   }
 /*********************** Start QR Code Generator ********************/
-
-    
-/*********************** Start Btn_Up ********************/
-  #btnUp{
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    z-index: 99999;
-    background-color:  var(--secondary_color);
-    transition: background-color 0.3s;
-    text-align: center;
-    display: none;
-  }
-  #btnUp i{
-    font-size: 22px;
-    color: var(--white_color);
-  }
-  #btnUp:hover{
-    background-color: var(--white_color);
-  }
-  #btnUp:hover i{
-    color: var(--secondary_color);
-  }
-/*********************** End Btn_Up ********************/

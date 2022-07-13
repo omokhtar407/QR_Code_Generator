@@ -55,21 +55,3 @@
 
 
 
-
-/* ******************* Start btnUp ****************** */
-    let aboutOffset = $('#About_Me').offset().top;
-    $(window).scroll(function(){
-        let wScroll = $(window).scrollTop();
-        if(wScroll > aboutOffset - 300){
-            $('#btnUp').fadeIn(500);
-        }
-        else{
-            $('#btnUp').fadeOut(500);
-        }
-    })
-    $('#btnUp').click(function(){
-        $('body,html').animate({scrollTop:0},1000)
-    })
-/* ******************* End btnUp ****************** */
-
-
